@@ -36,13 +36,22 @@ const FullScreenComponent: React.FC = () => {
 
 
 
-                <Form >
 
-                    <Button className="mt-6 bg-gray-700 dark:bg-white text-white dark:text-black py-2 px-4 rounded hover:bg-gray-200 transition-colors">
-                        Say Hello
-                    </Button>
+                <div className="flex gap-4">
 
-                </Form>
+                    <Form >
+                        <Button className="mt-6 bg-gray-700 dark:bg-white text-white dark:text-black py-2 px-4 rounded hover:bg-gray-200 transition-colors">
+                            Say Hello
+                        </Button>
+                    </Form>
+
+
+                    <a href="/assets/cv.pdf" download>
+                        <Button className="mt-6 bg-gray-700 dark:bg-white text-white dark:text-black py-2 px-4 rounded hover:bg-gray-200 transition-colors">
+                            Download CV
+                        </Button>
+                    </a>
+                </div>
 
 
 

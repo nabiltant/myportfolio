@@ -30,7 +30,7 @@ const ProjectShowcase = () => {
         {
             title: "IETP School Management System",
             description: "Comprehensive local school management solution built with React.js and SQL",
-            image: "assets/hakiai.jpeg",
+            image: "assets/ietp.png",
             code: `
 .ietp-system {
   framework: React.js;
@@ -47,7 +47,7 @@ const ProjectShowcase = () => {
         {
             title: "KasbahDades.com",
             description: "Elegant hotel presentation website showcasing Moroccan hospitality",
-            image: "assets/hakiai.jpeg",
+            image: "assets/kasbahdades.com.jpeg",
             code: `
 .kasbah-website {
   framework: Next.js;
@@ -63,7 +63,7 @@ const ProjectShowcase = () => {
         {
             title: "AI Art Generator",
             description: "Popular Android art generation app with 50,000+ downloads",
-            image: "assets/hakiai.jpeg",
+            image: "assets/aiart.png",
             code: `
 .ai-art-android {
   platform: Android Studio;
@@ -80,7 +80,7 @@ const ProjectShowcase = () => {
         {
             title: "SaaS AI Art Generator",
             description: "Professional AI art generation platform with subscription model",
-            image: "assets/hakiai.jpeg",
+            image: "assets/hakiaiartgenerator.jpeg",
             code: `
 .saas-art-platform {
   framework: Next.js;
@@ -97,7 +97,7 @@ const ProjectShowcase = () => {
         {
             title: "AI Task|Note Master",
             description: "Smart Android app for AI-powered note-taking and task management",
-            image: "assets/hakiai.jpeg",
+            image: "assets/tasknote.png",
             code: `
 .ai-taskmaster {
   platform: Android Studio;
@@ -143,12 +143,12 @@ const ProjectShowcase = () => {
     };
 
     return (
-        <div id='projects' className="min-h-screen grid place-items-center overflow-hidden">
+        <div id='projects' className="min-h-[1000px] grid place-items-center overflow-hidden">
             <div className="relative">
                 <div
                     ref={containerRef}
                     className="
-                        relative w-[320px] h-[520px]
+                        relative w-[320px] h-[720px]
                         md:w-[520px] md:h-[520px] lg:w-[820px] lg:h-[620px]
                         transition-transform duration-100 ease-out
                         [transform-style:preserve-3d]
